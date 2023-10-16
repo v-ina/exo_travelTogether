@@ -1,0 +1,137 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+@font-face {
+  font-family: "lato";
+  src: url(../../fonts/Lato/Lato-Regular.ttf);
+}
+body {
+  font-family: "lato";
+}
+
+@media (max-width: 992px) {
+  .monbanner {
+    height: 600px !important;
+  }
+  .monbanner h1 {
+    width: 50%;
+  }
+  .monbanner p {
+    width: 50%;
+  }
+  .monbanner img.position-absolute {
+    height: 70%;
+    top: 20%;
+    right: 10%;
+  }
+  .monfeature-content {
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+  }
+  .monfeature-content p {
+    line-height: normal !important;
+  }
+  .monfooter-banner {
+    top: -20% !important;
+  }
+  .monfooter-navbar div.container-fluid ul {
+    flex-direction: row !important;
+    gap: 30px;
+  }
+}
+@media (max-width: 767px) {
+  .monservicebox-2 {
+    height: 500px !important;
+  }
+  .monservicebox-3 {
+    height: 500px !important;
+  }
+}
+.navbar-brand img {
+  width: 300px;
+}
+
+.monbanner {
+  background-color: #E7816B;
+  height: 500px;
+  overflow: hidden;
+}
+.monbanner h1 {
+  width: 60%;
+}
+.monbanner p {
+  width: 60%;
+}
+.monbanner img {
+  height: 100%;
+  top: 20%;
+  right: 10%;
+}
+
+.moncol-service {
+  height: 500px;
+}
+.moncol-service div {
+  height: 50%;
+}
+
+.monservicebox-1 {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(../img/homme-assis-batiment.jpg);
+  background-position: 50%;
+}
+.monservicebox-1 i {
+  color: #E7816B;
+}
+
+.monservicebox-2 {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(../img/passport.jpg);
+  background-position: 50%;
+}
+.monservicebox-2 i {
+  color: #E7816B;
+}
+
+.monservicebox-3 {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(../img/montgolfiere.jpg);
+  background-position: 50%;
+}
+.monservicebox-3 i {
+  color: #E7816B;
+}
+
+#section_features {
+  background-image: url(../img/wave.svg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding-bottom: 250px !important;
+}
+#section_features i {
+  color: #E7816B;
+  font-size: 6rem;
+}
+
+.monfooter-banner {
+  background-color: #E7816B;
+  width: 80%;
+  top: -30%;
+  left: 50%;
+  transform: translateX(-50%);
+}
+.monfooter-banner h2 {
+  width: 60%;
+}
+.monfooter-banner p {
+  width: 60%;
+}
+.monfooter-banner .monfooter-btn {
+  width: 40%;
+}
+
+.monfooter-navbar {
+  padding-top: 300px !important;
+}
+
+/*# sourceMappingURL=style.css.map */

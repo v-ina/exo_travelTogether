@@ -1,0 +1,58 @@
+
+@media (max-width :992px) {
+    .monbanner{
+        height: 600px !important;
+        h1{
+            width: 50%;
+
+        }
+        p{
+            width: 50%;
+
+        }
+        img.position-absolute{
+            height: 70%;
+            top: 20%; right: 10%;
+        }
+    }
+
+
+    .monfeature-content{
+        padding-left: 0 !important;
+        padding-right: 0 !important;
+
+        p{
+            line-height: normal !important;
+        }
+    }
+
+    .monfooter-banner{
+        top: -20% !important;  
+    }
+    .monfooter-navbar{
+        div.container-fluid{
+            ul{
+                flex-direction: row !important;
+                gap: 30px;
+            }
+        }
+    }
+
+
+
+}
+
+
+
+@media (max-width : 767px) {
+    .monservicebox-2{
+        height: 500px !important;
+    }
+    
+    .monservicebox-3{
+        height: 500px !important;
+    }
+    
+    
+
+}

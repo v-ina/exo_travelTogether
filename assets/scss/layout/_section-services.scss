@@ -1,0 +1,31 @@
+// ----------section_services----------
+.moncol-service{
+    height: 500px;
+    div{
+        height: 50%;
+    }
+}
+
+.monservicebox-1{
+    background-image: $background-filter ,url(../img/homme-assis-batiment.jpg);
+    background-position: 50%;
+    i{
+        color: $themeColor;
+    }
+}
+
+.monservicebox-2{
+    background-image: $background-filter , url(../img/passport.jpg);
+    background-position: 50%;
+    i{
+        color: $themeColor;
+    }
+}
+
+.monservicebox-3{
+    background-image:  $background-filter ,url(../img/montgolfiere.jpg);
+    background-position: 50%;
+    i{
+        color: $themeColor;
+    }
+}
